@@ -1,0 +1,31 @@
+{
+  "name": "pyros-doctor",
+  "version": "1.0.0",
+  "description": "Patient control application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zata89/pyros-doctor.git"
+  },
+  "keywords": [
+    "doctor"
+  ],
+  "author": "zata1989@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zata89/pyros-doctor/issues"
+  },
+  "homepage": "https://github.com/zata89/pyros-doctor#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
